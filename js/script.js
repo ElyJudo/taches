@@ -25,9 +25,6 @@ addButton.addEventListener('click', function() {
 // Étape 3 : Créez la fonction pour ajouter une tâche
 // ...
 
-
-// console.log(tasks);
-
 let tasks;
 let id_=0;
 
