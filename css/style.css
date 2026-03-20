@@ -1,0 +1,134 @@
+body { 
+    font-family: sans-serif; 
+    padding: 50px; 
+    background: #f0f2f5; 
+    margin: 0 auto;
+}
+
+div.showChang{
+    display: block;
+}
+
+.container { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+    width: 67%; 
+    margin: 0 auto;
+}
+h1 { text-align: center; color: #333; }
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 15px; border: 1px solid #ddd; border-radius: 4px; outline: none; font-size: 18px;}
+button#add-btn { padding: 10px 17px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 18px;}
+button#add-btn:hover { background: #218838; }
+
+ul { list-style: none; padding: 0; }
+li { 
+    background: #fff; 
+    border-bottom: 1px solid #eee; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    cursor: pointer;
+    transition: background 0.2s;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+li:hover { background: #fafafa; }
+
+li span:first-child{
+    flex: 1;
+}
+.done { text-decoration: line-through; color: gray; opacity: 0.6; }
+
+.delete-btn { 
+    background: #ff4d4d; 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+
+.change-btn{
+    background: green; 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 14px; 
+}
+.delete-btn:hover { background: #cc0000; }
+
+
+.change{
+    
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100dvh;
+    text-align: center;
+    align-content: center;
+    padding: 79px;
+    margin: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    display: none;
+    /*! background-color: blanchedalmond; */
+    backdrop-filter: blur(4px);
+}
+
+.change>div{
+    
+    display: block;
+    padding: 0%;
+    margin: 0px;
+    width: 56%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.box-btn{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.box-btn>div{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.box-btn button{
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#input-txt{
+    
+    padding: 17px;
+}
+
+.btn-annuler{
+    background-color: cadetblue;
+}
+.btn-ok{
+   background-color: blue; 
+}
